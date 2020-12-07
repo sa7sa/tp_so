@@ -1,5 +1,3 @@
-#ifndef DICT_H
-#define DICT_H
 
 #include <unistd.h>
 #include <stdio.h>
@@ -26,4 +24,3 @@ typedef struct{//servidor -> cliente
  char palavra[TAM_MAX];
 }resposta_t;
 
-#endif
